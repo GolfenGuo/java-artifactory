@@ -14,4 +14,4 @@ RUN rm -rf /usr/local/tomcat/webapps/ROOT/*
 RUN cp -r target/travel-1.0.0/* $CATALINA_HOME/webapps/ROOT/
 
 # Upload to internal Artifactory
-mvn deploy:deploy-file -DrepositoryId=cmb-internal -Durl=http://52.69.70.39:8081/artifactory/ext-release-local -DgroupId=io.daocloud.sample -DartifactId=travel -Dversion=1.0.0 -Dpackaging=war -Dfile=/code/target/travel.war
+RUN mvn deploy:deploy-file -DrepositoryId=cmb-internal -Durl=http://52.69.70.39:8081/artifactory/ext-release-local -DgroupId=io.daocloud.sample -DartifactId=travel -Dversion=1.0.0 -Dpackaging=war -Dfile=/code/target/travel.war
