@@ -1,0 +1,9 @@
+<settings>  
+      <servers>  
+            <server>  
+                  <id>cmb-internal</id>  
+                  <username>admin</username>  
+                  <password>password</password>  
+            </server>  
+      </servers>  
+</settings>  
