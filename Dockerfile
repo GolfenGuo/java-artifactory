@@ -5,11 +5,11 @@ MAINTAINER Golfen Guo "golfen.guo@daocloud.io"
 # Prepare by downloading dependencies
 WORKDIR /code
 ADD pom.xml /code/pom.xml
-RUN mvn -q dependency:resolve
+RUN mvn dependency:resolve
 
 # Adding source, compile and package into a WAR
 ADD src /code/src
-RUN mvn -q -DskipTests=true package
+RUN mvn -DskipTests=true package
 RUN rm -rf /usr/local/tomcat/webapps/ROOT/*
 RUN cp -r target/travel-1.0.0/* $CATALINA_HOME/webapps/ROOT/
 
