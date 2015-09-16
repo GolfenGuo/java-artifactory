@@ -1,1 +1,1 @@
-# java-artifactory
+# java-mysql-travel-sample  
