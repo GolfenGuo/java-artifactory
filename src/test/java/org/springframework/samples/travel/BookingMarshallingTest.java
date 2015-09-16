@@ -18,7 +18,7 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.HashSet;
 
-public class BookingMarshallingTests {
+public class BookingMarshallingTest {
 
 	public static void main(String args[]) throws Throwable {
 

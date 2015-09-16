@@ -13,7 +13,7 @@ import org.springframework.webflow.test.MockExternalContext;
 import org.springframework.webflow.test.MockFlowBuilderContext;
 import org.springframework.webflow.test.execution.AbstractXmlFlowExecutionTests;
 
-public class BookingFlowExecutionTests extends AbstractXmlFlowExecutionTests {
+public class BookingFlowExecutionTest extends AbstractXmlFlowExecutionTests {
 
 	private BookingService bookingService;
 
@@ -23,7 +23,7 @@ public class BookingFlowExecutionTests extends AbstractXmlFlowExecutionTests {
 
 	@Override
 	protected FlowDefinitionResource getResource(FlowDefinitionResourceFactory resourceFactory) {
-		return resourceFactory.createFileResource("src/main/webapp/WEB-INF/hotels/booking/booking-flow.xml");
+		return resourceFactory.createFileResource("src/main/webapp/WEB-INF/views/hotels/booking/booking-flow.xml");
 	}
 
 	@Override

@@ -14,7 +14,7 @@ import org.springframework.transaction.support.TransactionTemplate;
 import java.util.List;
 import java.util.Set;
 
-public class JpaBookingServiceTests {
+public class JpaBookingServiceTest {
 	public static void main(String[] args) throws Throwable {
 
 		ApplicationContext annotationConfigApplicationContext

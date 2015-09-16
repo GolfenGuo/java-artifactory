@@ -1,1 +1,1 @@
-# java-mysql-travel-sample  
+# java-sample  
