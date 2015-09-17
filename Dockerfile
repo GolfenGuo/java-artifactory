@@ -1,4 +1,4 @@
-FROM daocloud.io/golfen/java-base
+FROM golfen/java-artifactory-base
 
 MAINTAINER Golfen Guo "golfen.guo@daocloud.io"
 
